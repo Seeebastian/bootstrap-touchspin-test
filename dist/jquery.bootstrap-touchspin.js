@@ -444,7 +444,7 @@
 
         elements.up.on('touchstart.touchspin', function(ev) {
         //elements.up.off('mousedown.touchspin');  // android 4 workaround
-
+			console.log("TEST");
           if (originalinput.is(':disabled')) {
             return;
           }
